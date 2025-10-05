@@ -1,4 +1,4 @@
-# Red-Light Violation Detection (YOLOv12 + ByteTrack + HSV)
+# Stop-sign (YOLOv12 + ByteTrack + HSV)
 
 This project detects **red-light violations** in traffic videos using:
 
@@ -117,6 +117,7 @@ python main.py
 * **Violation rule**: if the **segment from previous center to current center** intersects the **violation line** **while** any ROI is red, the track ID is marked as violating (box turns **red** and stays red).
 
 ---
+
 
 
 
